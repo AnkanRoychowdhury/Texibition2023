@@ -1,7 +1,6 @@
 {
   "name": "texibition",
   "version": "0.1.0",
-  "homepage": "%PUBLIC_URL%",
   "private": true,
   "dependencies": {
     "@react-google-maps/api": "^2.7.0",
