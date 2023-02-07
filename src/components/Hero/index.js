@@ -24,7 +24,7 @@ const Hero = () => {
                 <VideoBg autoPlay loop muted src={Video} type='video/mp4' />
             </HeroBg>
             <HeroContent>
-                <HeroH1>NUV YUVA</HeroH1>
+                <HeroH1>Texibition</HeroH1>
                 <HeroP>Event Description</HeroP>
                 <HeroBtnWrapper>
                     <Button 

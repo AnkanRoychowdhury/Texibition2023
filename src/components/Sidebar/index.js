@@ -20,18 +20,18 @@ const Sidebar = ({ isOpen, toggle }) => {
                     <SidebarLink to='1' onClick={toggle}>
                         Technical
                     </SidebarLink>
-                    <SidebarLink to='2' onClick={toggle}>
+                    {/* <SidebarLink to='2' onClick={toggle}>
                         Workshops
-                    </SidebarLink>
+                    </SidebarLink> */}
                     <SidebarLink to='3' onClick={toggle}>
                         Gaming
                     </SidebarLink>
-                    <SidebarLink to='4' onClick={toggle}>
+                    {/* <SidebarLink to='4' onClick={toggle}>
                         Cultural
-                    </SidebarLink>
-                    <SidebarLink to='5' onClick={toggle}>
+                    </SidebarLink> */}
+                    {/* <SidebarLink to='5' onClick={toggle}>
                         Sports
-                    </SidebarLink>
+                    </SidebarLink> */}
                     <SidebarLink to='highlights' onClick={toggle}>
                         Highlights
                     </SidebarLink>
