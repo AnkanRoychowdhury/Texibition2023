@@ -59,7 +59,7 @@ const EventCategory = ({
                                 </TextWrapper>
                                 </Column1>
                                 <Column2>
-                                    <Carousel fade interval='5000' touch={true} indicators={false}>
+                                    <Carousel fade interval='1500' touch={true} indicators={false}>
                                             {data.events.map(event => {
                                                 return (
                                                     <Carousel.Item key={event.name}>

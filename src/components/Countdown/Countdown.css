@@ -52,6 +52,12 @@
 .logo {
   width: 400px;
 }
+.smalllogo {
+  width: 130px;
+  display: inline;
+  align-items: center;
+  margin-right: 55px;
+}
 .clock {
   display: flex;
   align-items: center;
@@ -83,6 +89,12 @@
   .clock-seperator,
   .clock-txt {
     font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .smalllogo {
+    display: none;
   }
 }
 

@@ -50,12 +50,23 @@ export const styles = {
     color: " #f3f3f7",
   },
   card_subtitle: {
-    fontFamily: "'Courier New' , monospace ",
+    fontFamily: "San-sarief",
     display: "flex",
     justifyContent: "center",
+    fontSize: '1rem',
     alignItem: "center",
     color: " #f3f3f7",
   },
+  contact: {
+    display: "flex",
+    justifyContent: "center",
+    alignItem: "center",
+  },
+  contactTitle: {
+    color: "grey",
+    fontSize: "1.3rem",
+    marginTop: "5px"
+  }
 };
 
 const Members = () => {
@@ -64,7 +75,10 @@ const Members = () => {
   return (
     <>
       <div style={styles.header}>
-        <h2 style={styles.title}>The Team</h2>
+        <h2 style={styles.title}>Contact</h2>
+      </div>
+      <div style={styles.contact}>
+        <h5 style={styles.contactTitle}>Feel Free To Reach Us</h5>
       </div>
       <div style={styles.box} className="team-cat">
         <div style={styles.header}>

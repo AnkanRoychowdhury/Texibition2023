@@ -4,7 +4,7 @@ import { Row, Col, Container, Card, Button } from "react-bootstrap";
 
 const MemCard = ({ data }) => {
 
-    const { id, name, imgSrc, postion } = data;
+    const { id, name, imgSrc, postion,contactNo } = data;
 
 
     return (
@@ -19,7 +19,7 @@ const MemCard = ({ data }) => {
                 <Card.Body style={styles.card_body}>
                     <Card.Title style={styles.card_title}>{name}</Card.Title>
                     <Card.Title style={styles.card_subtitle} className='card_subtitle'>
-                        {postion}
+                        Contact : {contactNo}
                     </Card.Title>
                 </Card.Body>
             </Card>
