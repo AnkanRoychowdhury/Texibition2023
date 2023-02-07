@@ -5,20 +5,20 @@ export const EventsData = [
         "image" : require("../images/graphical_elements/trippy_element_1.png"),
         "events" : [
             {
-                "image" : require("../images/webp/web.webp"),
+                "image" : require("../images/webp/code-golf.webp"),
                 "name" : "Code Golf",
                 "description" : "Play Golf with Keyboard",
                 "price" : "100 PP",
                 "registerUrl": "https://www.youtube.com"
             },
             {
-                "image" : require("../images/webp/web.webp"),
+                "image" : require("../images/webp/capturetheflag.webp"),
                 "name" : "Capture The Flag",
                 "description" : "Unlock your coding potential and claim the flag!",
                 "price" : "100 PP"
             },
             {
-                "image" : require("../images/webp/make_a_bot.webp"),
+                "image" : require("../images/webp/TheArchitect.webp"),
                 "name" : "The Architect",
                 "description" : "Showcase your prototype to the world",
                 "price" : "200 PP",
@@ -26,7 +26,7 @@ export const EventsData = [
                 "size": "Group Size: 2",
             },
             {
-                "image" : require("../images/highlights/mun_1.webp"),
+                "image" : require("../images/webp/Ideate.webp"),
                 "name" : "Ideate",
                 "description" : "Explore your innovative mind",
                 "price" : "200 PG",
