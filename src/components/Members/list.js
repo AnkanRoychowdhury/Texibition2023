@@ -1,5 +1,6 @@
 import ankan from "./images/ankan.webp";
 import p1 from "./images/p1.webp";
+import shivam from "./images/shivam.webp";
 
 
 /* Position Ids 1-Coordinators,2-Presidents,3-Committe Heads,4-Faculty */
@@ -24,7 +25,7 @@ export const memberData = [
   {
     id: 7,
     name: "Shivam Sharma",
-    imgSrc: p1,
+    imgSrc: shivam,
     contactNo: "9002615290",
     postion: "Technical head",
     posId: 1,
