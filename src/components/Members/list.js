@@ -1,6 +1,7 @@
 import ankan from "./images/ankan.webp";
 import p1 from "./images/p1.webp";
 import shivam from "./images/shivam.webp";
+import rahul from "./images/rahul.webp";
 
 
 /* Position Ids 1-Coordinators,2-Presidents,3-Committe Heads,4-Faculty */
@@ -9,7 +10,7 @@ export const memberData = [
   {
     id: 1,
     name: "Rahul Roy",
-    imgSrc: p1,
+    imgSrc: rahul,
     contactNo: "6291841165",
     postion: "GDSC BWU Tech Lead",
     posId: 1,
