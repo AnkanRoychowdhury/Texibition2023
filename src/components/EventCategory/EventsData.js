@@ -44,7 +44,7 @@ export const EventsData = [
     {
         "id": 3,
         "name" : "Gaming Events",
-        "image" : require("../images/graphical_elements/trippy_element_1.png"),
+        // "image" : require("../images/graphical_elements/trippy_element_1.png"),
         "events" : [
             {
                 "image" : require("../images/webp/cod-event.webp"), 
