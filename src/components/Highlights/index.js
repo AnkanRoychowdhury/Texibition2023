@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import hackathon from '../images/highlights/hackathon_1.webp';
+import hackathon from '../images/webp/code-golf.webp';
 import concert from '../images/webp/cod.webp';
-import mun from '../images/highlights/mun_1.webp';
+import ideate from '../images/webp/Ideate.webp';
 
 import {
     HighlightsContainer,
@@ -56,7 +56,7 @@ const Highlights = () => {
                     </HighlightsBtnWrapper>
                 </HighlightsCard>
                 <HighlightsCard>
-                    <HighlightsIcon src={mun}/>
+                    <HighlightsIcon src={ideate}/>
                     <HighlightsH2>Ideate</HighlightsH2>
                     {/* <EventsP>Description</EventsP> */}
                     <HighlightsBtnWrapper>

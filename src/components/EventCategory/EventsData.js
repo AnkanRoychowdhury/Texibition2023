@@ -41,7 +41,7 @@ export const EventsData = [
         "image" : require("../images/graphical_elements/trippy_element_1.png"),
         "events" : [
             {
-                "image" : require("../images/webp/cod.webp"), 
+                "image" : require("../images/webp/cod-event.webp"), 
                 "name" : "Call Of Duty",
                 "description" : "Are we just rushin' in? Let's bring it on!",
                 "price" : "100 PP",
@@ -49,7 +49,7 @@ export const EventsData = [
                 "size": "Team Size: 5",
             },
             {
-                "image" : require("../images/webp/football.webp"), 
+                "image" : require("../images/webp/pes.webp"), 
                 "name" : "PES",
                 "description" : "Siuuuuuuuuuu !!!",
                 "price" : "100 PP",

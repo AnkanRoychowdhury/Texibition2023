@@ -3,6 +3,7 @@ import p1 from "./images/p1.webp";
 import shivam from "./images/shivam.webp";
 import rahul from "./images/rahul.webp";
 import subhadip from "./images/subhadip.webp";
+import nilesh from "./images/nilesh.webp";
 
 
 /* Position Ids 1-Coordinators,2-Presidents,3-Committe Heads,4-Faculty */
@@ -35,7 +36,7 @@ export const memberData = [
   {
     id: 8,
     name: "Nilesh Maity",
-    imgSrc: p1,
+    imgSrc: nilesh,
     contactNo: "6291278568",
     postion: "Management Lead",
     posId: 1,
