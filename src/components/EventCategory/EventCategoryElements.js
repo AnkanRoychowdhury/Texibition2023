@@ -213,10 +213,12 @@ export const EventCardTextSubtitle = styled.p`
 `;
 
 export const EventCardTextBody = styled.p`
-    color: #f3f3f7;
-    font-size: 1.3rem;
-    font-weight: 300;
+    background: linear-gradient(to bottom, #30CFD0 0%, #330867 100%);
+    font-size: 1.5rem;
+    font-weight: 700;
     margin-top: 5px;
+    -webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 
     @media screen and (max-width: 768px) {
         font-size: 1.2rem;

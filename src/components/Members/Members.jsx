@@ -37,7 +37,7 @@ export const styles = {
     marginBottom: " 3rem",
   },
   card: {
-    width: "21rem",
+    width: "15rem",
     borderBottomRightRadius: "16px",
     borderBottomLeftRadius: "16px",
     backgroundColor: "#000000",
@@ -82,10 +82,22 @@ const Members = () => {
       </div>
       <div style={styles.box} className="team-cat">
         <div style={styles.header}>
-          <h3 style={styles.subtitle} className="subtitle">Faculty COORDINATORS</h3>
+          <h4 style={styles.subtitle} className="subtitle">Convener</h4>
         </div>
         <Row>
           {Data.filter((data) => data.posId === 4).map((val, index) => {
+            const { id, name, imgSrc, postion } = val;
+
+            return (
+              <MemCard data={val} />
+            );
+          })}
+        </Row>
+        <div style={styles.header}>
+          <h4 style={styles.subtitle} className="subtitle">Treasurer</h4>
+        </div>
+        <Row>
+          {Data.filter((data) => data.posId === 5).map((val, index) => {
             const { id, name, imgSrc, postion } = val;
 
             return (

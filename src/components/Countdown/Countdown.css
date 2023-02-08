@@ -48,15 +48,14 @@
   align-items: center;
   justify-content: center;
 }
-
 .logo {
   width: 400px;
 }
 .smalllogo {
   width: 130px;
-  display: inline;
+  /* display: inline; */
   align-items: center;
-  margin-right: 55px;
+  margin-right: 45px;
 }
 .clock {
   display: flex;

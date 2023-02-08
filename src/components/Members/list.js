@@ -4,6 +4,7 @@ import shivam from "./images/shivam.webp";
 import rahul from "./images/rahul.webp";
 import subhadip from "./images/subhadip.webp";
 import nilesh from "./images/nilesh.webp";
+import ss from "./images/ss.webp";
 
 
 /* Position Ids 1-Coordinators,2-Presidents,3-Committe Heads,4-Faculty */
@@ -60,9 +61,9 @@ export const memberData = [
   {
     id: 14,
     name: "Mr. Suprativ Saha",
-    imgSrc: p1,
+    imgSrc: ss,
     contactNo: "9883316115",
     postion: "Assistant Profesor BWU",
-    posId: 4,
+    posId: 5,
   },
 ];

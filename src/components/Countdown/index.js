@@ -68,14 +68,10 @@ const Countdown = () => {
     <section className="Countdown" id="#Countdown" ref={myRef}>
       <section className="container">
         <section className="timer">
-          <div>
-            <img src={techclublog} style={{height: 95,width: 100}} className="smalllogo" alt="techclub logo"></img>
-            <img src={gdsclogo} style={{height: 200,width: 140}} className="smalllogo" alt="gdsc logo"></img>
-            <img src={iiclogo} className="smalllogo" alt="logo"></img>
-          </div>
-          <div>
-            <h5 style={{textAlign: 'center',fontStyle: 'italic', color: '#fff',fontFamily: 'sans-serif',fontWeight: 700}}>PRESENTS</h5>
-          </div>
+          <img src={techclublog} style={{height: 95,width: 90,marginLeft: 60}} className="smalllogo" alt="techclub logo"></img>
+          <img src={gdsclogo} style={{height: 250,width: 170}} className="smalllogo" alt="gdsc logo"></img>
+          <img src={iiclogo} style={{height: 100,width: 170}} className="smalllogo" alt="logo"></img>
+          <h5 style={{textAlign: 'center',fontStyle: 'italic', color: '#fff',fontFamily: 'sans-serif',fontWeight: 700}}>PRESENTS</h5>
           <div>
             <img src={logo} className="logo" alt="logo"></img>
           </div>
