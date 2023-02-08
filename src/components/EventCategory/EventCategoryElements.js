@@ -206,7 +206,7 @@ export const EventCardTextTitle = styled.h2`
 
 export const EventCardTextSubtitle = styled.p`
     color: #139fcd;
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: bold;
     margin-top: 10px;
     margin-bottom: 0px;
@@ -225,7 +225,7 @@ export const EventCardTextBody = styled.p`
 
 export const EventCardTextEventCriteria1 = styled.h6`
     color: #f3f3f7;
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: 300;
     margin-top: 0px;
     margin-bottom: 0px;
@@ -233,7 +233,7 @@ export const EventCardTextEventCriteria1 = styled.h6`
 
 export const EventCardTextEventCriteria2 = styled.h6`
     color: #f3f3f7;
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: 300;
     margin-top: 0px;
     margin-bottom: 0px;
@@ -258,7 +258,7 @@ export const EventCardButtonWrapper = styled.div`
     background: #60b8d5;
 `;
 
-export const EventCardButton = styled.div`
+export const EventCardButton = styled.a`
     display: flex;
     align-items: center;
     justify-content: center;
@@ -268,6 +268,7 @@ export const EventCardButton = styled.div`
     transition: all 0.2s ease-in-out;
     cursor: pointer;
     font-weight: bold;
+    text-decoration: none;
 
     &:hover {
         transition: all 0.2s ease-in-out;

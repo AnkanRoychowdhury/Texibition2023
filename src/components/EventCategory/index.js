@@ -30,6 +30,8 @@ import {
     Img,
 } from './EventCategoryElements';
 
+import EventRules from "./EventRules_Texibition2K23.pdf";
+
 const EventCategory = ({
     bg, 
     imgStart, 
@@ -63,9 +65,9 @@ const EventCategory = ({
                                             {data.events.map(event => {
                                                 return (
                                                     <Carousel.Item key={event.name}>
-                                                        <EventCardWrapper onClick={() => window.open(`${event.registerUrl}`, "_self")}>
-                                                            <EventCardImage img={ event.image } />
-                                                            <EventCardTextWrapper>
+                                                        <EventCardWrapper>
+                                                            <EventCardImage img={ event.image } onClick={() => window.open(`${event.registerUrl}`, "_self")}/>
+                                                            <EventCardTextWrapper onClick={() => window.open(`${event.registerUrl}`, "_self")}>
                                                                     <EventCardTextTitle darkEventTitle={darkEventTitle}>{event.name}</EventCardTextTitle>
                                                                     <EventCardTextBody darkEventDescription={darkEventDescription}>{event.description}</EventCardTextBody>
                                                                     <EventCardTextSubtitle darkEventSubtitle={darkEventSubtitle}><FaRupeeSign />{event.price}</EventCardTextSubtitle>
@@ -74,7 +76,7 @@ const EventCategory = ({
                                                                     <EventCardTextEventCriteria3 onClick={() => window.open(`${event.registerUrl}`, "_self")}>Register Now</EventCardTextEventCriteria3>
                                                             </EventCardTextWrapper>
                                                             <EventCardButtonWrapper>
-                                                                <EventCardButton onClick={() => window.open(`${event.registerUrl}`, "_self")}>
+                                                                <EventCardButton href={EventRules} download="EventRules" target='_blank'>
                                                                     Check Events Rule
                                                                 </EventCardButton>
                                                             </EventCardButtonWrapper>

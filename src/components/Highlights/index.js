@@ -34,7 +34,7 @@ const Highlights = () => {
                             to='hackathon' 
                             onMouseEnter={onHover} 
                             onMouseLeave={onHover}
-                            onClick={() => window.open("#", "_self")}
+                            onClick={() => window.open("https://forms.gle/bYqjQJd3MA9gyRmc7", "_self")}
                         >
                             Register Now
                         </HighlightsButton>
@@ -49,7 +49,7 @@ const Highlights = () => {
                             to='concert' 
                             onMouseEnter={onHover} 
                             onMouseLeave={onHover}
-                            onClick={() => window.open("#", "_self")}
+                            onClick={() => window.open("https://forms.gle/AD7u5qp2ewg6XfYX9", "_self")}
                         >
                             Register Now
                         </HighlightsButton>
@@ -64,7 +64,7 @@ const Highlights = () => {
                             to='mun' 
                             onMouseEnter={onHover} 
                             onMouseLeave={onHover}
-                            onClick={() => window.open("#", "_self")}
+                            onClick={() => window.open("https://forms.gle/dgdNJVJwJiMxV2vR7", "_self")}
                         >
                             Register Now
                         </HighlightsButton>

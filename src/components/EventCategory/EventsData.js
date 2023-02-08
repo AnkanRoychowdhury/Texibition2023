@@ -8,22 +8,27 @@ export const EventsData = [
                 "image" : require("../images/webp/code-golf.webp"),
                 "name" : "Code Golf",
                 "description" : "Play Golf with Keyboard",
-                "price" : "100 PP",
-                "registerUrl": "https://www.youtube.com"
+                "price" : "100 Per Student",
+                "group": "Individual Event",
+                "registerUrl": "https://forms.gle/bYqjQJd3MA9gyRmc7"
             },
             {
                 "image" : require("../images/webp/capturetheflag.webp"),
                 "name" : "Capture The Flag",
                 "description" : "Unlock your coding potential and claim the flag!",
-                "price" : "100 PP"
+                "price" : "200 Per Team",
+                "group": "Group Event",
+                "size": "Group Size: 1-2 Students",
+                "registerUrl": "https://forms.gle/bYqjQJd3MA9gyRmc7"
             },
             {
                 "image" : require("../images/webp/TheArchitect.webp"),
                 "name" : "The Architect",
                 "description" : "Showcase your prototype to the world",
-                "price" : "200 PP",
-                "group": "Individual/Group",
-                "size": "Group Size: 2",
+                "price" : "400 Per Team",
+                "group": "Group Event",
+                "size": "Group Size: 5",
+                "registerUrl": "https://forms.gle/Gyc2b9VqEnSSyonp8"
             },
             {
                 "image" : require("../images/webp/Ideate.webp"),
@@ -31,7 +36,8 @@ export const EventsData = [
                 "description" : "Explore your innovative mind",
                 "price" : "200 PG",
                 "group": "Group Event",
-                "size": "Group Size: 2-4",
+                "size": "Group Size: 2-4 Students",
+                "registerUrl": "https://forms.gle/dgdNJVJwJiMxV2vR7"
             }
         ]
     },
@@ -44,17 +50,18 @@ export const EventsData = [
                 "image" : require("../images/webp/cod-event.webp"), 
                 "name" : "Call Of Duty",
                 "description" : "Are we just rushin' in? Let's bring it on!",
-                "price" : "100 PP",
+                "price" : "200 Per Team",
                 "group" : "Group Event",
                 "size": "Team Size: 5",
+                "registerUrl": "https://forms.gle/AD7u5qp2ewg6XfYX9"
             },
             {
                 "image" : require("../images/webp/pes.webp"), 
                 "name" : "PES",
                 "description" : "Siuuuuuuuuuu !!!",
-                "price" : "100 PP",
-                "group" : "Group Event",
-                "size": "Team Size: 5",
+                "price" : "50 Per Student",
+                "group" : "Individual",
+                "registerUrl": "https://forms.gle/AD7u5qp2ewg6XfYX9"
             }
         ]
     },
