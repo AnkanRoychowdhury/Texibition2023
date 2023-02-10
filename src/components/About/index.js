@@ -27,10 +27,12 @@ const About = () => {
                 </HeadRow>
                 <AboutWrapper>
                     <LogoRow>
-                        <Img style={{ height: 150 }} src={logo} />
+                        <Img style={{ height: 145, width: 350 }} src={logo} />
                     </LogoRow>
                     <DescriptionRow>
-                        <Content>Brainware University announces the imminent, and the most awaited event, two-day Inter-university/college Annual Technology Festival and Exhibition-“Texibition’ 2K23”, to be held in the varsity campus on February 28th & March 1st, 2023. This coveted fest is to be organized jointly by the Institute Innovation Cell and the Tech-Club, a collaborative programme widely by the students, of the students, and for the students. Braced highly by the teachers and support staff, the platform shall offer an exposure to the new generation of students to display their innovative ideas not only in the domains of engineering but also in the fields of Biotechnology, Pharmacy, Allied Health Sciences, Multimedia, Nursing, Management, Physics, Mathematics, English, Computer Science, Law and Journalism.</Content>
+                        <Content>
+                            A two day Inter University Annual Technical Festival and Exhibition- “TEXIBITION 2K23” is to be held in February 28th and March 1st from 10:00am – 5:00pm both days by Tech Club , Google developer club and Institution’s Innovation Council of the University. The festival will be a high profile event which would attract students from our University and other colleges/Universities as well to compete on a big scale and showcase their talent. This will be the fourth Edition of TEXIBITION 2K23, the Annual Tech Fest of the University. Last year,the event was attended by 2500 students and this year the festival is expected to be attended by more students’ participants. Possible footfall expected on that day as a whole is 7000 approx. The festival is a forum for similar minds to interact, share and discuss the latest happenings not only in the field of Science and Technology but also cover areas like Health and life science, Bio technology, Green Technology, Renewable and Non-renewable Energy, Waste management etc. The events like The Architect (Prototype Competition), The Ideate (Idea Competition) ,The Legends (Gaming Competition), The Bluster  (Coding Competition) will give the participant the opportunity to excel & present their vivid and advanced imaginations.
+                        </Content>
                     </DescriptionRow>
                 </AboutWrapper>
             </AboutContainer>

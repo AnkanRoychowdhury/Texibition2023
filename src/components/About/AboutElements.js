@@ -43,12 +43,12 @@ export const WebsiteRow = styled.div`
 export const DescriptionRow = styled.div`
   grid-area: description;
   justify-content: center;
-  padding: 10px;
+  padding: 2px;
 `;
 
 export const Content = styled.p`
   grid-area: description;
-  max-width: 600px;
+  max-width: 1000px;
   font-size: 15px;
   line-height: 30px;
   color: #f3f3f7;

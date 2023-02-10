@@ -68,13 +68,14 @@ const EventCategory = ({
                                                         <EventCardWrapper>
                                                             <EventCardImage img={ event.image } onClick={() => window.open(`${event.registerUrl}`, "_self")}/>
                                                             <EventCardTextWrapper onClick={() => window.open(`${event.registerUrl}`, "_self")}>
+                                                
                                                                     <EventCardTextTitle darkEventTitle={darkEventTitle}>{event.name}</EventCardTextTitle>
                                                                     {
                                                                         event.description ?
                                                                         <EventCardTextBody darkEventDescription={darkEventDescription}>Co-Event : {event.description}</EventCardTextBody>
                                                                         :
                                                                         <EventCardTextEventCriteria1 style={{fontSize: '1.3rem'}}>{event.slogan}</EventCardTextEventCriteria1>
-                                                                    }
+                                                                    } 
                                                                     <EventCardTextSubtitle darkEventSubtitle={darkEventSubtitle}><FaRupeeSign />{event.price}</EventCardTextSubtitle>
                                                                     <EventCardTextEventCriteria1>{event.group}</EventCardTextEventCriteria1>                    
                                                                     <EventCardTextEventCriteria2>{event.size}</EventCardTextEventCriteria2>
