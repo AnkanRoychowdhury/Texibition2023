@@ -82,7 +82,7 @@ const Members = () => {
       </div>
       <div style={styles.box} className="team-cat">
         <div style={styles.header}>
-          <h4 style={styles.subtitle} className="subtitle">Convener</h4>
+          <h4 style={styles.subtitle} className="subtitle">Convenor</h4>
         </div>
         <Row>
           {Data.filter((data) => data.posId === 4).map((val, index) => {
