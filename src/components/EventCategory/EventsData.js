@@ -10,7 +10,7 @@ export const EventsData = [
                 "description" : "CODE GOLF",
                 "price" : "100 Per Student",
                 "group": "Individual Event",
-                "registerUrl": "https://forms.gle/bYqjQJd3MA9gyRmc7"
+                "registerUrl": "https://forms.gle/bYqjQJd3MA9gyRmc7",
             },
             {
                 "image" : require("../images/webp/capturetheflag.webp"),
@@ -34,9 +34,8 @@ export const EventsData = [
                 "image" : require("../images/webp/Ideate.webp"),
                 "name" : "Ideate",
                 "slogan" : "Explore your innovative mind",
-                "price" : "200 PG",
-                "group": "Group Event",
-                "size": "Group Size: 2-4 Students",
+                "price" : "200 Per Student",
+                "group": "Individual Event",
                 "registerUrl": "https://forms.gle/dgdNJVJwJiMxV2vR7"
             }
         ]
