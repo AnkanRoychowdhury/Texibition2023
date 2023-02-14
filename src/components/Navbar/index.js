@@ -14,7 +14,7 @@ import {
     MobileDownloadLink,
     MobileButton,
 } from './NavbarElements';
-import Brochure from "../brochure/brochure.pdf";
+import Brochure from "../brochure/Sponsorship_Brochure.pdf";
 
 const Navbar = ({ toggle }) => {
 
