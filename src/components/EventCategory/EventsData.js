@@ -61,6 +61,15 @@ export const EventsData = [
                 "price" : "50 Per Student",
                 "group" : "Individual",
                 "registerUrl": "https://forms.gle/AD7u5qp2ewg6XfYX9"
+            },
+            {
+                "image" : require("../images/webp/freefire.webp"), 
+                "name" : "The Legends",
+                "description" : "FREE FIRE",
+                "price" : "200 Per Group",
+                "group" : "Group Event",
+                "size": "Team Size: 4",
+                "registerUrl": "https://forms.gle/AD7u5qp2ewg6XfYX9"
             }
         ]
     },
